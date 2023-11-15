@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Web Form</title>
+    <link href="stylesheet.css" rel="stylesheet">
 </head>
+
 <body>
     <h1>My First Web Form</h1>
     <form method="POST" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="_self">
-        <fieldset class="personal">
+        <fieldset class="personalfield">
             <legend>Name Information</legend>
-            <label for="firstname">First Name</label>
-            <input type="text" id="firstname" name="firstname"><br>
-            <label for="LastName">Last Name</label>
-            <input type="text" id="LastName" name="LastName">
+            <label for="firstname">First Name:</label>
+            <input type="text" class="personalinfo" id="firstname" name="firstname" placeholder="Enter First Name"><br>
+            <label for="LastName">Last Name:</label>
+            <input type="text" class="personalinfo" id="LastName" name="LastName" placeholder="Enter Last Name">
         </fieldset>
-        <fieldset>
+        <fieldset class="contactfield">
             <legend>Contact Information</legend>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email"><br>
+            <label for="email">Email:</label>
+            <input type="email" class="contactinfo" name="email" id="email" placeholder="Enter your email"><br>
             <label for="telephone">Phone:</label>
-            <input type="tel" name="telephone" id="telephone">
+            <input type="tel" class="contactinfo" name="telephone" value="670" id="telephone"
+                placeholder="Enter your telephone number">
         </fieldset>
-        <fieldset>
+        <fieldset class="dobfield">
             <legend>Birthdate</legend>
-            <label for="dob">Date of Birth</label>
-            <input type="date" name="dob" id="dob">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" class="dobinfo" name="dob" required id="dob" placeholder="Enter your date of birth">
         </fieldset>
-        <fieldset>
-            <input type="submit">
-        </fieldset>
+        <div class="submitfield">
+            <fieldset class="submitbutt">
+                <input type="submit">
+            </fieldset>
+        </div>
 
 
 
     </form>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,65 @@
+body {
+    background-color: floralwhite;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.personalinfo {
+    width: 200px;
+}
+.contactinfo {
+    width: 200px;
+}
+.dobinfo {
+    width: 200px;
+}
+fieldset {
+    border: 0;
+}
+legend {
+    text-align: center;
+    padding-top: 50px;
+}
+.personalfield {
+    font-size: 20px;
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.contactfield {
+    font-size: 20px;
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.dobfield
+{
+    
+    font-size: 20px;
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.submitfield {
+    font-size: 20px;
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.submitbutt {
+    text-align: center;
+}
