@@ -6,6 +6,34 @@
     <title>First Web Form</title>
 </head>
 <body>
+    <h1>My First Web Form</h1>
+    <form method="POST" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="_self">
+        <fieldset class="personal">
+            <legend>Name Information</legend>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="LastName">Last Name</label>
+            <input type="text" id="LastName" name="LastName">
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="telephone">Phone:</label>
+            <input type="tel" name="telephone" id="telephone">
+        </fieldset>
+        <fieldset>
+            <legend>Birthdate</legend>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+        </fieldset>
+        <fieldset>
+            <input type="submit">
+        </fieldset>
+
+
+
+    </form>
     
 </body>
 </html>
